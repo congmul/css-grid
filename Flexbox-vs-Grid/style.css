@@ -1,0 +1,43 @@
+.container {
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 200px 40px;
+    grid-gap: 3px;
+
+    text-align: center;
+}
+
+.container div{
+    border: 1px solid lightgrey;
+}
+
+.header{
+    grid-column: 1/-1;
+    display: flex;
+}
+.header div{
+    padding: 7px;
+}
+.header > div:nth-child(3){
+    margin-left:auto;
+}
+
+.menu{
+    grid-row: 2/3;
+}
+
+.content{
+    grid-column: 2/-1;
+}
+
+.footer {
+    grid-column: 1/-1;
+}
+
+.flexbox-header {
+    display:flex;
+}
+
+.flexbox-header > div:nth-child(3){
+    margin-left: auto;
+}

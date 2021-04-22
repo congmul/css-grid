@@ -1,6 +1,18 @@
 body{
     background-color: lightyellow;
-    text-align: center;
+    /* text-align: center; */
+}
+.flexbox-header {
+    margin-bottom: 50px;
+    background-color: rgb(160, 255, 231);
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.flexbox-header div{
+    padding:13px;
 }
 
 .container div{
